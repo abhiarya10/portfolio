@@ -1,0 +1,24 @@
+.nav-body{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+}
+.my-sign{
+    font-size: 25px;
+    font-family: cursive;
+    font-style:italic
+}
+.nav-body ul{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.nav-body li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

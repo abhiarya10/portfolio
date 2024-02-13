@@ -1,0 +1,9 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.app-mian-body{
+    background-color: #EEE7D2;
+    min-height: 100vh;
+}
