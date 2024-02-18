@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
 .nav-body{
     display: flex;
     flex-direction: row;
     padding: 10px 20px;
+    border-bottom: 1px rgb(194, 191, 190) solid;
+    box-shadow: 0px 0px 10px rgb(105, 104, 104);
+    position: fixed;
+    width: 100%;
+    background-color: #EEE7D2;
 }
 .my-sign{
-    font-size: 25px;
-    font-family: cursive;
-    font-style:italic
+    font-size: 35px;
+    font-family: "Tangerine", cursive;
+    font-weight:bolder;
+    font-style: normal;
 }
 .nav-body ul{
     display: flex;

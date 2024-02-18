@@ -1,10 +1,15 @@
 .intro-body{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    height: 90vh;
+    padding-top: 50px;
+}
+.intro-text-image{
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
-    flex-direction: row;
-    height: 90vh;
 }
 .intro-text-container{
     width: 47%;
@@ -24,4 +29,38 @@
     width: 228px;
     height: 229px;
     border-radius: 1000px;
+}
+.btns{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.resume-btn{
+    border: 1px black solid;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px 12px;
+    background-color: black;
+    color: aliceblue;
+    transition: 0.3s ease-in-out;
+}
+.contact-btn{
+    border: 1px black solid;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px 12px;
+    background-color: #e9e2e0;
+    transition: 0.3s ease-in-out;
+}
+.resume-btn:hover{
+    cursor: pointer;
+    background-color: rgb(63, 63, 63);
+    color: aliceblue;
+
+}
+.contact-btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
 }

@@ -4,7 +4,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="nav-body">
-      <p className="my-sign">Abhigyan</p>
+      <p className="my-sign">Abhigyan Kumar</p>
       <ul>
         <li>Home</li>
         <li>Project</li>

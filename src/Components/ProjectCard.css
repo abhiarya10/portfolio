@@ -1,0 +1,67 @@
+.project-card-div{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.project-image{
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+}
+.project-info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.project-title-div{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.project-title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tech-used-div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.tech-used{
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project-desc-div{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project-desc{
+    text-align: justify;
+}
+.projectLink-div{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.projectLink-div a{
+    text-decoration: none;
+    color: black;
+    padding: 7px 20px;
+    font-size: 16px;
+    border: 1px black solid;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+}
+.projectLink-div a:hover{
+    background-color: black;
+    color: aliceblue;
+}
