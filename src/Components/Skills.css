@@ -1,0 +1,54 @@
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    
+}
+.my-skills-text{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+.skills-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(185, 185, 176);
+    padding: 15px 0px 2px 0px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 20px rgb(100, 100, 100);
+}
+.frontend-stack, .backend-stack, .database-stack, .git-github{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.inner-div{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+.tech-text{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid rgb(84, 84, 84);
+}
+
+.each-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px 0px 0px;
+}
+.each-skill img{
+    width: 55px;
+    height: 55px;
+}
+.each-skill p{
+ font-size: 16;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}

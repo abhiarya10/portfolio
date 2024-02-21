@@ -4,6 +4,7 @@
 }
 
 .app-mian-body{
-    background-color: #EEE7D2;
+    background-color: transparent;
     min-height: 100vh;
+    background-color: #EEE7D2;
 }
