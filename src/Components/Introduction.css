@@ -18,6 +18,14 @@
     padding: 0px 30px;
     color: #2b2b27;
 }
+.dark-intro-text{
+    width: 47%;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 30px;
+    color: #e7e7e7;
+
+}
 .my-name{
     font-size: 40px;
     margin-bottom: 20px;
@@ -30,6 +38,8 @@
     width: 228px;
     height: 229px;
     border-radius: 1000px;
+    border-bottom: 2px white solid;
+    box-shadow: 0px 2px 20px gray;
 }
 .btns{
     width: 40%;
@@ -42,17 +52,37 @@
     font-size: 15px;
     border-radius: 5px;
     padding: 10px 12px;
-    background-color: black;
+    background-color: #1A1A1A;
     color: aliceblue;
     transition: 0.3s ease-in-out;
 }
-.contact-btn{
+.resume-dark-btn{
     border: 1px black solid;
+    font-size: 15px;
+    font-weight:600;
+    border-radius: 5px;
+    padding: 10px 12px;
+    background-color: #EEE7D2;
+    color: #1A1A1A;
+    transition: 0.3s ease-in-out;
+}
+.contact-btn{
+    border: 1.3px #121212 solid;
     font-size: 15px;
     border-radius: 5px;
     padding: 10px 12px;
     background-color: #EEE7D2;
     transition: 0.3s ease-in-out;
+}
+.contact-dark-btn{
+    border: 1px #EEE7D2 solid;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px 12px;
+    background-color: transparent;
+    color: #EEE7D2;
+    transition: 0.3s ease-in-out;
+
 }
 .resume-btn:hover{
     cursor: pointer;

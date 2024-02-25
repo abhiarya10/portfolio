@@ -1,0 +1,47 @@
+.educ-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 110px;
+}
+.sec-educ-div{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.educ-text-div{
+    width: 35%;
+}
+.education-text{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 115px;
+}
+.school-college-div{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.college-div{
+    margin-bottom: 40px;
+}
+.course-text{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.school-name{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 0px;
+}
+.score{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.experience-div{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}

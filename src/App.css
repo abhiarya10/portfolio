@@ -4,7 +4,10 @@
 }
 
 .app-mian-body{
-    background-color: transparent;
     min-height: 100vh;
     background-color: #EEE7D2;
+}
+.app-dark-mode{
+    min-height: 100vh;
+    background-color: #1A1A1A;
 }

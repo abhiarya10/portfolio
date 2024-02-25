@@ -3,12 +3,24 @@
 .nav-body{
     display: flex;
     flex-direction: row;
-    padding: 10px 20px;
+    padding: 9px 20px;
     border-bottom: 1px rgb(194, 191, 190) solid;
     box-shadow: 0px 0px 10px rgb(105, 104, 104);
     position: fixed;
     width: 100%;
     background-color: #EEE7D2;
+}
+.dark-nav{
+    display: flex;
+    flex-direction: row;
+    padding: 9px 20px;
+    border-bottom: 1px #424209 solid;
+    box-shadow: 0px 0px 20px rgb(100, 100, 99);
+    position: fixed;
+    width: 100%;
+    background-color: #323204;
+    color: #f0eeeb;
+
 }
 .my-sign{
     font-size: 35px;
@@ -16,17 +28,57 @@
     font-weight:bolder;
     font-style: normal;
 }
-.nav-body ul{
+.nav-ul{
     display: flex;
     flex: 1;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     justify-content: flex-end;
 }
-.nav-body li{
+.nav-ul li{
     list-style: none;
     margin-right: 20px;
-    padding: 5px 10px;
+    padding: 0px 10px;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dark-mode-btn{
+    border: none;
+    background-color: transparent;
+}
+.dark-logo{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 8px rgb(0, 0, 0);
+    background-color: rgb(191, 185, 185);
+}
+.dark-logo:hover{
+    cursor: pointer;
+    background-color: rgb(172, 165, 165);
+}
+.light-logo{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 8px rgb(192, 191, 191);
+    background-color: rgb(66, 66, 66);
+}
+.light-logo:hover{
+    cursor: pointer;
+    background-color: rgb(113, 112, 112);
+}
+.light-logo-d{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 8px rgb(217, 216, 216);
+    background-color: rgb(101, 101, 101);
+}
+.light-logo-d:hover{
+    cursor: pointer;
+    background-color: rgb(113, 112, 112);
 }

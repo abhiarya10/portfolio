@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 130px;
     
 }
 .my-skills-text{
@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(185, 185, 176);
-    padding: 15px 0px 2px 0px;
+    padding: 25px 0px 2px 0px;
     border-radius: 2px;
     box-shadow: 0px 2px 20px rgb(100, 100, 100);
 }
@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .inner-div{
     display: flex;

@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Introduction.css";
 import my_pic from "../Assests/my_pic.jpg";
+import { darkModeContext } from "../globalState/globalDarkMode";
 
 function Introduction() {
+  const { globalDark } = useContext(darkModeContext);
   return (
     <div className="intro-body">
       <div className="intro-text-image">
-        <div className="intro-text-container">
+        <div
+          className={`${
+            globalDark ? "dark-intro-text" : "intro-text-container"
+          }`}
+        >
           <p className="my-name">Hi👋, I'm Abhigyan</p>
           <p className="my-intro">
             A passionate Full Stack Software Developer 🚀 having an experience
@@ -14,8 +20,16 @@ function Introduction() {
             some other cool libraries and frameworks.
           </p>
           <div className="btns">
-            <button className="resume-btn">My Resume</button>
-            <button className="contact-btn">Contact me</button>
+            <button
+              className={`${globalDark ? "resume-dark-btn" : "resume-btn"}`}
+            >
+              My Resume
+            </button>
+            <button
+              className={`${globalDark ? "contact-dark-btn" : "contact-btn"}`}
+            >
+              Contact me
+            </button>
           </div>
         </div>
         <div className="my-img-container">

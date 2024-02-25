@@ -17,7 +17,6 @@ function Skills() {
       <p className="my-skills-text">My skills</p>
       <div className="skills-div">
         <div className="frontend-stack">
-          <p className="tech-text">Frontend</p>
           <div className="inner-div">
             <div className="each-skill">
               <img src={htmlLogo} />
@@ -31,10 +30,13 @@ function Skills() {
               <img src={reactLogo} />
               <p>reactjs</p>
             </div>
+            <div className="each-skill">
+              <img src={reactLogo} />
+              <p>react native</p>
+            </div>
           </div>
         </div>
         <div className="backend-stack">
-          <p className="tech-text">Backend</p>
           <div className="inner-div">
             <div className="each-skill">
               <img src={expressLogo} />
@@ -51,7 +53,6 @@ function Skills() {
           </div>
         </div>
         <div className="database-stack">
-          <p className="tech-text">Database</p>
           <div className="inner-div">
             <div className="each-skill">
               <img src={mongoDBLogo} />
@@ -65,7 +66,6 @@ function Skills() {
         </div>
 
         <div className="git-github">
-          <p className="tech-text">Version Control</p>
           <div className="inner-div">
             <div className="each-skill">
               <img src={gitLogo} />

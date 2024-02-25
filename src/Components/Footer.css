@@ -1,0 +1,10 @@
+.footer-div{
+    background-color: #e1dbc6;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer-div p{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
