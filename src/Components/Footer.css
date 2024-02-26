@@ -3,8 +3,19 @@
     padding: 20px;
     margin-top: 20px;
 }
+.dark-footer-div{
+    background-color: #323204;
+    padding: 20px;
+    margin-top: 20px;
+}
 .footer-div p{
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+}
+.dark-footer-div p{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #f0eeeb;
 }

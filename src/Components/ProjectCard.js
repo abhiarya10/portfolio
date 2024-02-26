@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./ProjectCard.css";
+import { darkModeContext } from "../globalState/globalDarkMode";
 
 function ProjectCard({ projectDetails }) {
+  const { globalDark } = useContext(darkModeContext);
   return (
-    <div className="project-card-div">
+    <div
+      className={`${globalDark ? "dark-project-card-div" : "project-card-div"}`}
+    >
       <img src={projectDetails.projectImage} className="project-image" />
       <div className="project-info">
         <div className="project-title-div">
@@ -18,7 +22,11 @@ function ProjectCard({ projectDetails }) {
           </p>
         </div>
         <div className="projectLink-div">
-          <a href={projectDetails.projectLink} target="_blank">
+          <a
+            href={projectDetails.projectLink}
+            target="_blank"
+            className={`${globalDark ? "dark-project-link" : "project-link"}`}
+          >
             Live
           </a>
         </div>

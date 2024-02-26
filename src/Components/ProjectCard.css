@@ -8,6 +8,17 @@
     border-top: 1px black solid;
     border-bottom: 1px black solid;
 }
+.dark-project-card-div{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    border-top: 1px #EEE7D2 solid;
+    border-bottom: 1px #EEE7D2 solid;
+    color: #EEE7D2;
+}
 
 .project-image{
     width: 400px;
@@ -52,7 +63,7 @@
     justify-content: flex-start;
     margin-top: 15px;
 }
-.projectLink-div a{
+.project-link{
     text-decoration: none;
     color: black;
     padding: 7px 20px;
@@ -61,7 +72,20 @@
     border-radius: 3px;
     transition: 0.3s ease-in-out;
 }
-.projectLink-div a:hover{
+.project-link:hover{
     background-color: black;
     color: aliceblue;
+}
+.dark-project-link{
+    text-decoration: none;
+    color: #EEE7D2;
+    padding: 7px 20px;
+    font-size: 16px;
+    border: 1px #EEE7D2 solid;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+}
+.dark-project-link:hover{
+    background-color: #EEE7D2;
+    color: black;
 }
