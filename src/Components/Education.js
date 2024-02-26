@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Education.css";
+import { darkModeContext } from "../globalState/globalDarkMode";
 
 function Education() {
+  const { globalDark } = useContext(darkModeContext);
   return (
-    <div className="educ-div">
+    <div className={`${globalDark ? "dark-educ-div" : "educ-div"}`}>
       <div className="sec-educ-div">
         <div className="educ-text-div">
           <p className="education-text">Education</p>

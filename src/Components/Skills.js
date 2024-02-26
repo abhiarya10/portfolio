@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Skills.css";
+import { darkModeContext } from "../globalState/globalDarkMode";
 import htmlLogo from "../Assests/Icons/html.png";
 import cssLogo from "../Assests/Icons/cssLogo.png";
 import reactLogo from "../Assests/Icons/reactLogo.png";
@@ -12,10 +13,14 @@ import flaskLogo from "../Assests/Icons/flaskLogo.png";
 import mysqlLogo from "../Assests/Icons/mysqlLogo.png";
 
 function Skills() {
+  const { globalDark } = useContext(darkModeContext);
+
   return (
     <div className="skills-container">
-      <p className="my-skills-text">My skills</p>
-      <div className="skills-div">
+      <p className={`${globalDark ? "dark-skills-text" : "my-skills-text"}`}>
+        My skills
+      </p>
+      <div className={`${globalDark ? "dark-skills-div" : "skills-div"}`}>
         <div className="frontend-stack">
           <div className="inner-div">
             <div className="each-skill">

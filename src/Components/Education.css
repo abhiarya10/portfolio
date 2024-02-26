@@ -5,6 +5,14 @@
     justify-content: center;
     margin-bottom: 110px;
 }
+.dark-educ-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 110px;
+    color: #EEE7D2;
+}
 .sec-educ-div{
     width: 80%;
     display: flex;
