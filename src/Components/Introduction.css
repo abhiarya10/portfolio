@@ -5,6 +5,7 @@
     flex: 1;
     height: 90vh;
     padding-top: 50px;
+    margin-bottom: 50px;
 }
 .intro-text-image{
     display: flex;
@@ -23,7 +24,7 @@
     font-size: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0px 30px;
-    color: #e7e7e7;
+    color: #EEE7D2;
 
 }
 .my-name{
@@ -94,4 +95,58 @@
     cursor: pointer;
     background-color: black;
     color: aliceblue;
+}
+
+
+@media screen and (max-width:732px) {
+    .intro-body{
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        flex: 1;
+        height: 90vh;
+        padding-top: 77px;
+    }
+    .intro-text-image{
+        position: relative;
+    }
+    .my-img-container{
+        position: absolute;
+        top: 0px
+    }
+    .intro-text-container, .dark-intro-text{
+        width: 95%;
+        font-size: 18px;
+        text-align:center;
+        padding: 250px 30px;
+    }
+    .my-name{
+        font-size: 30px;
+        text-align: center;
+    }
+    .btns{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .resume-btn, .contact-btn, .resume-dark-btn, .contact-dark-btn{   
+        font-size: 18px;
+        padding: 15px 17px;
+        transition: none;
+        margin-bottom: 10px;
+    }
+   
+    .resume-btn:hover{
+        cursor: none;
+        background-color: #1A1A1A;
+        color: aliceblue;
+    
+    }
+    .contact-btn:hover{
+        cursor: none;
+        background-color: #EEE7D2;
+        color: black;
+    }
 }

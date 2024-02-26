@@ -9,6 +9,7 @@
     position: fixed;
     width: 100%;
     background-color: #EEE7D2;
+    z-index: 1;
 }
 .dark-nav{
     display: flex;
@@ -20,7 +21,7 @@
     width: 100%;
     background-color: #323204;
     color: #f0eeeb;
-
+    z-index: 1;
 }
 .my-sign{
     font-size: 35px;
@@ -81,5 +82,39 @@
 .light-logo-d:hover{
     cursor: pointer;
     background-color: rgb(120, 120, 120);
+}
+
+@media screen and (max-width: 732px){
+    .nav-body{
+        display: flex;
+        align-items: center;
+        padding: 10px 20px 10px 15px;
+        border-bottom: none;
+        box-shadow: none;
+        position: fixed;
+    }
+    .dark-nav{
+        display: flex;
+        align-items: center;
+        padding: 10px 20px 10px 15px;
+        border-bottom: none;
+        box-shadow: none;
+        position: fixed;
+        background-color: #1A1A1A;
+    }
+    .nav-body li:not(:last-child){
+        display: none;
+    }
+    .dark-nav li:not(:last-child){
+        display: none;
+    }
     
+    .my-sign{
+        font-size: 20px;
+        font-family: "Tangerine", cursive;
+        font-weight:bolder;
+        font-style: normal;
+    }
+
+
 }

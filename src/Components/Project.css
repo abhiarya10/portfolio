@@ -14,7 +14,7 @@
     padding-top: 10px;
 }
 .dark-project-sec-div{
-    background-color: #2EE930;
+    /* background-color: #2EE930; */
     background-color: #4b4b04;
     width: 90%;
     text-align: center;
@@ -34,4 +34,10 @@
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #EEE7D2;
+}
+
+@media screen and (max-width: 732px){
+    .project-sec-div, .dark-project-sec-div{
+        width: 100%;
+    }
 }
