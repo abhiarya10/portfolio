@@ -19,3 +19,9 @@
     text-align: center;
     color: #f0eeeb;
 }
+
+@media screen and (max-width:732px) {
+    .footer-div, .dark-footer-div{
+        padding: 30px;
+    }
+}

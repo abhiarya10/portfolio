@@ -59,18 +59,7 @@
     cursor: pointer;
     background-color: rgb(172, 165, 165);
 }
-.light-logo{
-    width: 30px;
-    height: 30px;
-    padding: 4px;
-    border-radius: 30px;
-    box-shadow: 0px 2px 8px rgb(192, 191, 191);
-    background-color: rgb(66, 66, 66);
-}
-.light-logo:hover{
-    cursor: pointer;
-    background-color: rgb(113, 112, 112);
-}
+
 .light-logo-d{
     width: 30px;
     height: 30px;
@@ -110,10 +99,14 @@
     }
     
     .my-sign{
-        font-size: 20px;
+        font-size: 25px;
         font-family: "Tangerine", cursive;
         font-weight:bolder;
         font-style: normal;
+    }
+    .dark-logo, .light-logo-d{
+        width: 40px;
+        height: 40px;
     }
 
 

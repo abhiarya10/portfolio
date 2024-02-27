@@ -23,9 +23,7 @@ function Education() {
           </div>
           <div className="college-div">
             <p className="course-text">10th Standard</p>
-            <p className="school-name">
-              Jawahar Navodaya Vidyalaya, Muzaffarpur
-            </p>
+            <p className="school-name">Jawahar Navodaya Vidyalaya</p>
             <p className="score">2017-2018 | Score: 92%</p>
           </div>
         </div>
@@ -40,7 +38,7 @@ function Education() {
             <p className="school-name">
               Koushiki Innovision | July-December 2023 |Pune, Maharastra, India
             </p>
-            <p className="score">
+            <p className="desc">
               Implemented Dictionary App with React Native and Flask, empowers
               users to effortlessly explore word meanings across multiple
               languages. It allows users to input a word, choose a language, and

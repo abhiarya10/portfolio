@@ -38,6 +38,8 @@
 
 @media screen and (max-width: 732px){
     .project-sec-div, .dark-project-sec-div{
+        background-color: transparent;
         width: 100%;
+        padding-top: 0px;
     }
 }

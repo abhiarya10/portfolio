@@ -21,10 +21,7 @@ function Navbar() {
         <li>
           {globalDark ? (
             <button className="dark-mode-btn" onClick={toggleModeHandler}>
-              <img
-                src={lightLogo}
-                className={`${globalDark ? "light-logo-d" : "light-logo"}`}
-              />
+              <img src={lightLogo} className="light-logo-d" />
             </button>
           ) : (
             <button className="dark-mode-btn" onClick={toggleModeHandler}>
