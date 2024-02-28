@@ -1,0 +1,82 @@
+.resume-modal-div{
+    background-color: transparent;
+    width: 100%;
+    z-index: 1;
+    position:fixed;
+    top:65px;
+    display: flex;
+    justify-content: center;
+}
+.modal-box{
+    background-color: gray;
+    margin-top: 8px;
+    border-radius: 5px;
+    width: 28%;
+    height: 510px;
+    position: relative;
+}
+
+.resume-close-btn{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    background-color: transparent;
+    border: none;
+    z-index: 2;
+}
+.close-icon{
+ font-size: 30px;
+}
+.dark-close-icon{
+    font-size: 30px;
+    color: #EEE7D2;
+    
+}
+.close-icon:hover{
+    cursor: pointer;
+    color: rgb(50, 50, 50);
+}
+.dark-close-icon:hover{
+    cursor: pointer;
+    color: #bcb6a3;
+}
+.resume-pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px rgb(48, 46, 46);
+}
+
+.dark-empty-div{
+    background-color: #00000044;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px
+}
+
+.empty-div{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px
+}
+
+@media screen and (max-width:732px) {
+    .modal-box{
+        background-color: gray;
+        margin-top: 22px;
+        border-radius: 5px;
+        width: 90%;
+        height: 510px;
+        position: relative;
+    }
+    .resume-close-btn{
+        right: -18px;
+        top: -23px;
+    }
+    .close-icon, .dark-close-icon{
+        font-size: 40px;
+       }
+}

@@ -1,10 +1,16 @@
-import React, { useContext } from "react";
+import React, { useState, useContext } from "react";
 import "./Introduction.css";
 import my_pic from "../Assests/my_pic.jpg";
 import { darkModeContext } from "../globalState/globalDarkMode";
+import ResumeModal from "./ResumeModal";
 
 function Introduction() {
   const { globalDark } = useContext(darkModeContext);
+  const [modal, setModal] = useState(false);
+
+  function toggleModal() {
+    setModal(!modal);
+  }
   return (
     <div className="intro-body">
       <div className="intro-text-image">
@@ -22,6 +28,7 @@ function Introduction() {
           <div className="btns">
             <button
               className={`${globalDark ? "resume-dark-btn" : "resume-btn"}`}
+              onClick={toggleModal}
             >
               My Resume
             </button>
@@ -36,6 +43,7 @@ function Introduction() {
           <img src={my_pic} />
         </div>
       </div>
+      <ResumeModal modal={modal} setModal={setModal} />
     </div>
   );
 }

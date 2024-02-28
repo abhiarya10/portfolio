@@ -96,6 +96,15 @@
     background-color: black;
     color: aliceblue;
 }
+.resume-dark-btn:hover{
+    cursor: pointer;
+    background-color: #d2cbb9;
+}
+.contact-dark-btn:hover{
+    cursor: pointer;
+    background-color: #EEE7D2;
+    color: black;
+}
 
 
 @media screen and (max-width:732px) {
