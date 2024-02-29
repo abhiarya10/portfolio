@@ -15,7 +15,7 @@ function ResumeModal({ modal, setModal }) {
     <>
       {modal && (
         <div className="resume-modal-div">
-          <button className="btn-resume">Download</button>
+          <button className="download-btn">Download</button>
 
           <div className="modal-box">
             <button className="resume-close-btn" onClick={closeModalHandler}>
