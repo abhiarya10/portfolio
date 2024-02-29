@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./ResumeModal.css";
-import resume from "../Assests/resume.jpg";
+import resume from "../Assests/resumePic.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { darkModeContext } from "../globalState/globalDarkMode";
@@ -15,6 +15,8 @@ function ResumeModal({ modal, setModal }) {
     <>
       {modal && (
         <div className="resume-modal-div">
+          <button className="btn-resume">Download</button>
+
           <div className="modal-box">
             <button className="resume-close-btn" onClick={closeModalHandler}>
               <FontAwesomeIcon
@@ -23,7 +25,11 @@ function ResumeModal({ modal, setModal }) {
                 className={`${globalDark ? "dark-close-icon" : "close-icon"}`}
               />
             </button>
-            <img src={resume} className="resume-pic" />
+            <img
+              src={resume}
+              className={`${globalDark ? "dark-resume-pic" : "resume-pic"}`}
+            />
+
             <div
               className={`${globalDark ? "dark-empty-div" : "empty-div"}`}
             ></div>
