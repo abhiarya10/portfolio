@@ -7,10 +7,26 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin: 60px 0px 20px 0px;
 }
+.dark-contact-header{
+    color: #e1dbc6;
+}
 .contact-container{
     background-color: #e1dbc6;
     background-color: transparent;
     box-shadow: 0px 2px 10px #4c4a43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0px 25px 0px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 30%;
+}
+.dark-contact-container{
+    background-color: #323204;
+    color: #f0eeeb;
+    box-shadow: 0px 0px 20px rgb(100, 100, 99);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,11 +62,21 @@
     margin: 20px 0px;
     font-size: 19px;
 }
-.contact-form{
+.contact-form, .dark-contact-form{
     width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.dark-contact-form input{
+    display: block;
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgb(227, 213, 204);
+    border: 1px rgb(40, 39, 39) solid;
 }
 .contact-form input{
     display: block;
@@ -70,10 +96,34 @@
     box-shadow: 0px 2px 10px rgb(138, 138, 138);
     border: 1px solid black;
 }
+.contact-sub-btn:hover,.dark-contact-sub-btn:hover{
+    cursor: pointer;
+}
+.dark-contact-sub-btn{
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgb(138, 138, 138);
+    background-color: transparent;
+    color: #EEE7D2;
+    border: 1px solid #EEE7D2;
+}
 
 @media screen and (max-width: 732px){
-    .contact-container{
+    .contact-container,.dark-contact-container{
         width: 90%;
         margin-bottom: 30px;
+        padding: 35px 0px 30px 0px;
+    }
+    .contact-form input, .dark-contact-form input{
+        width: 90%;
+        padding: 20px 15px;
+    }
+    .mail-div{
+    padding: 10px 15px;
+    border-radius: 4px;
+    }
+    .contact-sub-btn, .dark-contact-sub-btn{
+        font-size: 18px;
     }
 }

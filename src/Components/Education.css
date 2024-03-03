@@ -57,7 +57,7 @@
 }
 
 @media  screen and (max-width: 742px) {
-    .educ-div{
+    .educ-div,.dark-educ-div{
         margin-bottom: 40px;
     }
     .sec-educ-div{

@@ -4,12 +4,13 @@
     display: flex;
     flex-direction: row;
     padding: 9px 20px;
-    border-bottom: 1px rgb(194, 191, 190) solid;
-    box-shadow: 0px 0px 10px rgb(105, 104, 104);
+    /* border-bottom: 1px rgb(194, 191, 190) solid;
+    box-shadow: 0px 0px 10px rgb(105, 104, 104); */
     position: fixed;
     width: 100%;
-    background-color: #EEE7D2;
-    background: linear-gradient(to right , #DFF2AC, #E0E0E0);
+    /* background-color: #EEE7D2; */
+    /* background: linear-gradient(to right , #DFF2AC, #E0E0E0); */
+    background: linear-gradient(to right , #d1e1a1, #E0E0E0);
     z-index: 1;
 }
 .dark-nav{
@@ -60,7 +61,7 @@
 }
 .nav-btn:hover{
     cursor: pointer;
-    background-color: #e1dbc6;
+    background-color: #bcca9177;
 }
 
 .dark-mode-btn{
