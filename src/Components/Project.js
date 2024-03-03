@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCard";
 import { projectList } from "../ProjectData";
 import { darkModeContext } from "../globalState/globalDarkMode";
 
-function Project() {
+function Project({ forwardRef }) {
   const { globalDark } = useContext(darkModeContext);
   return (
-    <div className="project-container">
+    <div className="project-container" ref={forwardRef}>
       <div
         className={`${globalDark ? "dark-project-sec-div" : "project-sec-div"}`}
       >
@@ -25,4 +25,6 @@ function Project() {
   );
 }
 
-export default Project;
+export default React.forwardRef((props, ref) => (
+  <Project forwardRef={ref} {...props} />
+));

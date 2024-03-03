@@ -4,7 +4,7 @@ import my_pic from "../Assests/my_pic.jpg";
 import { darkModeContext } from "../globalState/globalDarkMode";
 import ResumeModal from "./ResumeModal";
 
-function Introduction() {
+function Introduction({ forwardRef, scrollHandler }) {
   const { globalDark } = useContext(darkModeContext);
   const [modal, setModal] = useState(false);
 
@@ -12,7 +12,7 @@ function Introduction() {
     setModal(!modal);
   }
   return (
-    <div className="intro-body">
+    <div className="intro-body" ref={forwardRef}>
       <div className="intro-text-image">
         <div
           className={`${
@@ -34,6 +34,7 @@ function Introduction() {
             </button>
             <button
               className={`${globalDark ? "contact-dark-btn" : "contact-btn"}`}
+              onClick={() => scrollHandler("contact")}
             >
               Contact me
             </button>
@@ -48,4 +49,6 @@ function Introduction() {
   );
 }
 
-export default Introduction;
+export default React.forwardRef((props, ref) => (
+  <Introduction forwardRef={ref} {...props} />
+));

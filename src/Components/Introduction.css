@@ -3,9 +3,8 @@
     justify-content: center;
     flex-direction: column;
     flex: 1;
-    height: 90vh;
-    padding-top: 50px;
-    margin-bottom: 20px;
+    height: 80vh;
+    padding-top: 60px;
 }
 .intro-text-image{
     display: flex;
@@ -72,7 +71,7 @@
     font-size: 15px;
     border-radius: 5px;
     padding: 10px 12px;
-    background-color: #EEE7D2;
+    background-color: transparent;
     transition: 0.3s ease-in-out;
 }
 .contact-dark-btn{
@@ -106,14 +105,12 @@
     color: black;
 }
 
-
 @media screen and (max-width:732px) {
     .intro-body{
         display: flex;
         justify-content: start;
         flex-direction: column;
-        flex: 1;
-        height: 90vh;
+        height: auto;
         padding-top: 88px;
     }
     .intro-text-image{

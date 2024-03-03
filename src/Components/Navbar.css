@@ -9,6 +9,7 @@
     position: fixed;
     width: 100%;
     background-color: #EEE7D2;
+    background: linear-gradient(to right , #DFF2AC, #E0E0E0);
     z-index: 1;
 }
 .dark-nav{
@@ -23,6 +24,7 @@
     color: #f0eeeb;
     z-index: 1;
 }
+
 .my-sign{
     font-size: 35px;
     font-family: "Tangerine", cursive;
@@ -40,9 +42,27 @@
     list-style: none;
     margin-right: 20px;
     padding: 0px 10px;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.nav-btn{
+    border: none;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 7px 8px;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: 0.1s ease-in-out;
+}
+.dark-nav .nav-btn{
+    color: #f0eeeb;
+}
+.dark-nav .nav-btn:hover{
+    background-color: #3f3f06;
+}
+.nav-btn:hover{
+    cursor: pointer;
+    background-color: #e1dbc6;
+}
+
 .dark-mode-btn{
     border: none;
     background-color: transparent;

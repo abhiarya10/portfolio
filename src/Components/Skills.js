@@ -12,11 +12,11 @@ import mongoDBLogo from "../Assests/Icons/mongoDBlogo.png";
 import flaskLogo from "../Assests/Icons/flaskLogo.png";
 import mysqlLogo from "../Assests/Icons/mysqlLogo.png";
 
-function Skills() {
+function Skills({ forwardRef }) {
   const { globalDark } = useContext(darkModeContext);
 
   return (
-    <div className="skills-container">
+    <div className="skills-container" ref={forwardRef}>
       <p className={`${globalDark ? "dark-skills-text" : "my-skills-text"}`}>
         My skills
       </p>
@@ -87,4 +87,6 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default React.forwardRef((props, ref) => (
+  <Skills forwardRef={ref} {...props} />
+));

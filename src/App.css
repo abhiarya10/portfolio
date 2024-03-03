@@ -5,9 +5,32 @@
 
 .app-mian-body{
     min-height: 100vh;
-    background-color: #EEE7D2;
+    background-color: #2BD8BC;
+    background: linear-gradient(to right , #2BD8BC, #FECED4);
+    background: linear-gradient(to right , #D5EBC8, #FECED4);
+    background: linear-gradient(to right , #d0e39d, #E0E0E0);
 }
 .app-dark-mode{
     min-height: 100vh;
     background-color: #1A1A1A;
+}
+.down-arrow-div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.down-arrow-div img{
+    border-radius: 40px;
+    box-shadow: 0px 2px 10px rgb(111, 111, 111);
+}
+.down-arrow-div img:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 732px) {
+    .down-arrow-div{
+        display: none;
+    }
 }

@@ -21,8 +21,11 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(185, 185, 176);
+    background-color: transparent;
+    /* background: linear-gradient(to right , #d0e39d, #c3c2c2); */
+    background-color: #c7d892;
     padding: 25px 0px 2px 0px;
-    border-radius: 2px;
+    border-radius: 5px;
     box-shadow: 0px 2px 20px rgb(100, 100, 100);
 }
 .dark-skills-div{
@@ -69,6 +72,10 @@
 }
 
 @media screen and (max-width: 732px){
+    .skills-container{
+        margin-top: 60px;
+        margin-bottom: 80px; 
+    }
     .skills-div, .dark-skills-div{
         width: 90%;
     }

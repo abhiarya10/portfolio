@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { createElement, useContext } from "react";
 import "./ResumeModal.css";
 import resume from "../Assests/resumePic.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,11 +11,23 @@ function ResumeModal({ modal, setModal }) {
   function closeModalHandler() {
     setModal(!modal);
   }
+
+  function handleDownload() {
+    const link = document.createElement("a");
+    link.href = resume;
+    link.download = "resume.png";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
   return (
     <>
       {modal && (
         <div className="resume-modal-div">
-          <button className="download-btn">Download</button>
+          <button className="download-btn" onClick={handleDownload}>
+            Download
+          </button>
 
           <div className="modal-box">
             <button className="resume-close-btn" onClick={closeModalHandler}>

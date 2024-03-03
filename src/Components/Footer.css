@@ -1,11 +1,12 @@
 .footer-div{
     background-color: #e1dbc6;
-    padding: 20px;
+    background: linear-gradient(to right , #b7c88a, #c2c1c1);
+    padding: 22px;
     margin-top: 20px;
 }
 .dark-footer-div{
     background-color: #323204;
-    padding: 20px;
+    padding: 22px;
     margin-top: 20px;
 }
 .footer-div p{
