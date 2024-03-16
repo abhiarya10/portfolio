@@ -120,6 +120,14 @@
     .tech-used{
         font-size: 17px;
     }
+    .project-desc-div{
+        margin-top: 10px;
+        font-size: 16px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .project-desc{
+        text-align:start;
+    }
     .project-link, .dark-project-link{
         padding: 10px 30px;
         font-size: 18px;
