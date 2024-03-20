@@ -1,5 +1,5 @@
 import melodifyImage from "./Assests/melodifyImage.jpg";
-import chatburyImage from "./Assests/chatburyImage.jpg";
+import chatburyImage from "./Assests/chatburyImage.png";
 
 const projectList = [
   {

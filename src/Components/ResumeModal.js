@@ -1,6 +1,6 @@
 import React, { createElement, useContext } from "react";
 import "./ResumeModal.css";
-import resume from "../Assests/resumePic.jpg";
+import resume from "../Assests/resume.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { darkModeContext } from "../globalState/globalDarkMode";

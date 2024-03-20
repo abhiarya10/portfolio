@@ -21,9 +21,9 @@ function Introduction({ forwardRef, scrollHandler }) {
         >
           <p className="my-name">Hi👋, I'm Abhigyan</p>
           <p className="my-intro">
-            A passionate Full Stack Software Developer 🚀 having an experience
-            of building Web applications with JavaScript / Reactjs / Nodejs and
-            some other cool libraries and frameworks.
+            An enthusiastic Full Stack Software Developer 🚀 with expertise in
+            crafting dynamic web applications using React.js, Express.js
+            Node.js, and various other cutting-edge libraries and frameworks.
           </p>
           <div className="btns">
             <button
